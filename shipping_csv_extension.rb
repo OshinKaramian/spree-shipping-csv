@@ -8,9 +8,9 @@ class ShippingCsvExtension < Spree::Extension
 
   # Please use shipping_csv/config/routes.rb instead for extension routes.
 
-  # def self.require_gems(config)
-  #   config.gem "gemname-goes-here", :version => '1.2.3'
-  # end
+   def self.require_gems(config)
+     config.gem "fastercsv"
+   end
   
   def activate
 
