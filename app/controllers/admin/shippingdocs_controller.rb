@@ -26,7 +26,7 @@ class Admin::ShippingdocsController < Admin::BaseController
       @orders.each do |order|
         @checkout = Checkout.find(:first, :conditions => {:order_id => order.id})
 
-        if order.state != 'new' then
+        if order.state == 'in_progress' then
         else
           @billAddress = Address.find(:first, :conditions => {:id => @checkout.bill_address_id})
           @shipAddress = Address.find(:first, :conditions => {:id => @checkout.ship_address_id})

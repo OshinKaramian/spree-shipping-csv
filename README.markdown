@@ -6,6 +6,6 @@ Steps to install:
 
 gem install fastercsv
 
-2. Install plugin:
+2. Install extension:
 
-script install plugin git://github.com/OshinKaramian/spree-shipping-csv.git
+script install extension  git://github.com/OshinKaramian/spree-shipping-csv.git
