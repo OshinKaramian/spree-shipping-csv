@@ -2,7 +2,7 @@ This extension will add a CSV export button to the admin orders page that allows
 
 To install, add to Gemfile:
 
-	gem 'shipping_csv', :git => 'git://github.com/msharp/spree-shipping-csv.git', :branch => '0.60.x'
+	gem 'shipping_csv', :git => 'git://github.com/OshinKaramian/spree-shipping-csv.git', :branch => '0.60.x'
 
 And update your bundle:
 
